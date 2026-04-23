@@ -1,2 +1,3 @@
-BROKER_ADDR = '172.31.91.151'
+# Estou rodando local num windows via docker, então o broker é localhost
+BROKER_ADDR = 'localhost'
 BROKER_PORT = '9092'
